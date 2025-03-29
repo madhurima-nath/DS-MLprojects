@@ -28,6 +28,7 @@ Each python script needs to be executed to do the following tasks:
 This is a time-intensive process. The resulting dataframe is saved as
 a `.pkl` file in order to process the dataframe downstream. The resulting
 dataframe has the following three columns:
+
 | FilePath | FileID | RawContents |
 | --- | --- | --- |
 | \filename | id1 | contents | 
@@ -38,6 +39,7 @@ dataframe has the following three columns:
 data is assigned two labels - 1 and 0 - 1 implying that the file is
 relevant and important, 0 otherwise.
 The resulting dataframe is -
+
 | FileID | Label |
 | --- | --- |
 | id1 | 1 |
