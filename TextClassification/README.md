@@ -17,6 +17,9 @@ Regulatory Commission during its investigation of Enron's collapse.
 This is the dataset from 2015-05-07, as published at 
 [CMU webiste](https://www.cs.cmu.edu/~./enron/).
 
+NOTE: The data is not uploaded here. The name of the
+zip file is `enron_mail_20150507.tar.gz` as downloaded from the website.
+
 
 ## ARCHITECTURE
 This simple architecture can be modified to expand into a
