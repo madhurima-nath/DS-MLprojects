@@ -58,3 +58,19 @@ The resulting dataframe is -
 
 The null means that there are no labels for these documents.
 
+The final cleaned dataframe contains a column, used to create the word
+embeddings, and target variable. This dataframe is used to train the
+classification model. 
+
+Text cleaning & processing steps:
+- lemmatize sentences
+- remove all special characters, punctuations and numbers
+- replace words to make corpus cleaner
+- remove propoer nouns
+- remove stop words, additional spaces and any multi-byte characters
+- convert text to lower case
+
+
+- **Data classification**: Two models are created - one to create the
+vectors, and one for classification.
+
