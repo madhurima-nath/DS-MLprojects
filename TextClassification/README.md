@@ -74,3 +74,18 @@ Text cleaning & processing steps:
 - **Data classification**: Two models are created - one to create the
 vectors, and one for classification.
 
+Steps involved:
+- load entire cleaned and processed data
+- load labeled data
+- optional: handle class imbalance in labeled data
+- use labeled data as training data for classification model & save it
+- use trained model to predict labels on test data to evaluate model performance
+
+To create the vector embeddings, a new `word2vec` model is trained using
+the entire data. The time taken to complete this process increases with
+the size of the corpus.
+Because of the class imbalance, the labeled dataset is oversampled using
+`SMOTE`. 
+For classification, Support Vector Machine (SVM) classifier is selected.
+[Details on `scikit-learn`](https://scikit-learn.org/stable/modules/svm.html)
+
